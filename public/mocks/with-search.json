@@ -1,0 +1,408 @@
+{
+  "page": 1,
+  "results": [
+      {
+          "adult": false,
+          "backdrop_path": "/mQZ0jXbTfY4RAfPPp3iuH6vtKcX.jpg",
+          "genre_ids": [
+              10770,
+              28,
+              53
+          ],
+          "id": 47369,
+          "original_language": "en",
+          "original_title": "Avenger",
+          "overview": "Cal Dexter (Sam Elliott) es un héroe de guerra y ex agente de las fuerzas especiales que, tras la trágica muerte de su esposa y de su hija, decide perseguir sin piedad a todos aquellos criminales de guerra que el gobierno se niega a detener y a llevar ante la justicia. Pero, en su nueva misión, interfiere con los intereses de la CIA, convirtiéndose así en su objetivo. La agencia envía entonces a Frank McBride (Timothy Hutton) para parar los pies al vengativo Dexter.",
+          "popularity": 3.923,
+          "poster_path": "/cEI5aazuAVJ3PcWeNM8gxYiNjmq.jpg",
+          "release_date": "2006-04-09",
+          "title": "El Vengador",
+          "video": false,
+          "vote_average": 5.923,
+          "vote_count": 26
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/ldxi7dKtud2KrStUr8V9P65ixNr.jpg",
+          "genre_ids": [
+              12,
+              16,
+              28,
+              878
+          ],
+          "id": 14611,
+          "original_language": "en",
+          "original_title": "Ultimate Avengers 2: Rise of the Panther",
+          "overview": "Secuela de \"Ultimate Avengers\" lanzada directamente al mercado del DVD y vídeo. Continúa la historia donde la dejaba el original: Pantera Negra, soberano de un misterioso reino africano, pedirá ayuda al Capitán América tras la muerte de su padre a manos de Kleiser, antiguo enemigo de los superhéroes, que está al mando de la invasión extraterrestre que amenaza la Tierra. Los Vengadores viajarán a África para librar una sangrienta batalla.",
+          "popularity": 15.222,
+          "poster_path": "/h1PKqtjuTifmTU0EqM4W0Br2pHX.jpg",
+          "release_date": "2006-08-08",
+          "title": "Ultimate Avengers 2: Rise of the Panther",
+          "video": false,
+          "vote_average": 6.707,
+          "vote_count": 259
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+          "genre_ids": [
+              12,
+              28,
+              878
+          ],
+          "id": 299536,
+          "original_language": "en",
+          "original_title": "Avengers: Infinity War",
+          "overview": "El todopoderoso Thanos ha despertado con la promesa de arrasar con todo a su paso, portando el Guantelete del Infinito, que le confiere un poder incalculable. Los únicos capaces de pararle los pies son los Vengadores y el resto de superhéroes de la galaxia, que deberán estar dispuestos a sacrificarlo todo por un bien mayor. Capitán América e Ironman deberán limar sus diferencias, Black Panther apoyará con sus tropas desde Wakanda, Thor y los Guardianes de la Galaxia e incluso Spider-Man se unirán antes de que los planes de devastación y ruina pongan fin al universo. ¿Serán capaces de frenar el avance del titán del caos?",
+          "popularity": 147.754,
+          "poster_path": "/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+          "release_date": "2018-04-25",
+          "title": "Vengadores: Infinity War",
+          "video": false,
+          "vote_average": 8.255,
+          "vote_count": 27728
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+          "genre_ids": [
+              878,
+              28,
+              12
+          ],
+          "id": 24428,
+          "original_language": "en",
+          "original_title": "The Avengers",
+          "overview": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro.",
+          "popularity": 89.491,
+          "poster_path": "/ugX4WZJO3jEvTOerctAWJLinujo.jpg",
+          "release_date": "2012-04-25",
+          "title": "Los Vengadores",
+          "video": false,
+          "vote_average": 7.71,
+          "vote_count": 29180
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+          "genre_ids": [
+              12,
+              878,
+              28
+          ],
+          "id": 299534,
+          "original_language": "en",
+          "original_title": "Avengers: Endgame",
+          "overview": "Después de los eventos devastadores de 'Vengadores: Infinity War', el universo está en ruinas debido a las acciones de Thanos. Con la ayuda de los aliados que quedaron, los Vengadores deberán reunirse una vez más para intentar deshacer sus acciones y restaurar el orden en el universo de una vez por todas, sin importar cuáles sean las consecuencias... Cuarta y última entrega de la saga \"Vengadores\".",
+          "popularity": 88.188,
+          "poster_path": "/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+          "release_date": "2019-04-24",
+          "title": "Vengadores: Endgame",
+          "video": false,
+          "vote_average": 8.263,
+          "vote_count": 23871
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/rGGRv7XXpDBVGD2BtbKWENfZOkf.jpg",
+          "genre_ids": [
+              10751,
+              16
+          ],
+          "id": 368304,
+          "original_language": "en",
+          "original_title": "LEGO Marvel Super Heroes: Avengers Reassembled!",
+          "overview": "Cuando Ultrón se hace con el control de la armadura de Iron Man, los Vengadores se apresuran a salvar a su amigo y detener un malvado plan para conquistar el mundo.",
+          "popularity": 10.178,
+          "poster_path": "/xUBZNoY7idPfqKZepnDEv7Qc8GC.jpg",
+          "release_date": "2015-11-16",
+          "title": "LEGO Marvel Super Heroes: Avengers Reassembled!",
+          "video": false,
+          "vote_average": 6.492,
+          "vote_count": 120
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/9tjIgkkbajG2zMI4Yk21hpttXv0.jpg",
+          "genre_ids": [
+              28,
+              16,
+              10751,
+              12,
+              878
+          ],
+          "id": 14609,
+          "original_language": "en",
+          "original_title": "Ultimate Avengers: The Movie",
+          "overview": "Estrenada en USA y Europa directamente en video y DVD, La historia de Ultimate Vengadores está basada en el primer arco argumental de The Ultimates, en donde se nos presenta al grupo de superhéroes formado por Iron Man, Thor, La Avispa, El Hombre Gigante y Hulk, que se unen a un Capitán América recién rescatado del hielo que le ha aprisonado durante cinco décadas, desde el final de la II Guerra Mundial.",
+          "popularity": 13.4,
+          "poster_path": "/fKQqZEDmvKMCXEQztvMJHGou9dO.jpg",
+          "release_date": "2006-02-21",
+          "title": "Ultimate Avengers",
+          "video": false,
+          "vote_average": 6.76,
+          "vote_count": 313
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/6YwkGolwdOMNpbTOmLjoehlVWs5.jpg",
+          "genre_ids": [
+              28,
+              12,
+              878
+          ],
+          "id": 99861,
+          "original_language": "en",
+          "original_title": "Avengers: Age of Ultron",
+          "overview": "Cuando Tony Stark intenta reactivar un programa caído en desuso cuyo objetivo es mantener la paz, las cosas empiezan a torcerse y los héroes más poderosos de la Tierra, incluyendo a Iron Man, Capitán América, Thor, El Increíble Hulk, Viuda Negra y Ojo de Halcón, tendrán que afrontar la prueba definitiva cuando el destino del planeta se ponga en juego. Cuando el villano Ultron emerge, le corresponderá a Los Vengadores detener sus terribles planes, que junto a incómodas alianzas llevarán a una inesperada acción que allanará el camino para una épica y única aventura.",
+          "popularity": 75.292,
+          "poster_path": "/71wSx6MQm8EbMNDi3vVaD8nD9SL.jpg",
+          "release_date": "2015-04-22",
+          "title": "Vengadores: La Era de Ultrón",
+          "video": false,
+          "vote_average": 7.276,
+          "vote_count": 21762
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/4NWWpT0jiMUak8r6jfpvG4eBgFU.jpg",
+          "genre_ids": [
+              28,
+              12,
+              878
+          ],
+          "id": 1771,
+          "original_language": "en",
+          "original_title": "Captain America: The First Avenger",
+          "overview": "Nacido durante la Gran Depresión, Steve Rogers creció como un chico enclenque en una familia pobre. Horrorizado por las noticias que llegaban de Europa sobre los nazis, decidió enrolarse en el ejército; sin embargo, debido a su precaria salud, fue rechazado una y otra vez. Enternecido por sus súplicas, el general Chester Phillips le ofrece la oportunidad de tomar parte en un experimento especial: la Operación Renacimiento. Tras meses de preparación y entrenamiento recibe su primera misión como Capitán América. Armado con un escudo indestructible y su inteligencia para la batalla, el Capitán América emprende la guerra contra el mal, como centinela de la libertad y como líder de los Vengadores.",
+          "popularity": 39.794,
+          "poster_path": "/82ucHZ4ioVGiweT1XMl1mUZaodq.jpg",
+          "release_date": "2011-07-22",
+          "title": "Capitán América: El primer vengador",
+          "video": false,
+          "vote_average": 6.995,
+          "vote_count": 20277
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/8N91uYwrr1uepEKbmym1tgfXlzS.jpg",
+          "genre_ids": [
+              16,
+              10751,
+              28,
+              12,
+              878
+          ],
+          "id": 14613,
+          "original_language": "en",
+          "original_title": "Next Avengers: Heroes of Tomorrow",
+          "overview": "Cada vez que las fuerzas del mal amenazaron a la Humanidad, los mayores héroes de la Tierra, Los Vengadores, estaban allí para pararles, hasta que realizaron el sacrificio definitivo en su lucha final contra el robot indestructible Ultron. Pero todo no estaba perdido para Tony Stark (Iron Man), quien mantuvo a salvo a los hijos de Los Vengadores y los educó para convertirse en los héroes adolescentes del mañana.",
+          "popularity": 12.108,
+          "poster_path": "/fpG1NDbcLV2a7c8X7LC4FPISBT7.jpg",
+          "release_date": "2008-09-02",
+          "title": "Nuevos Vengadores: Heroes del mañana",
+          "video": false,
+          "vote_average": 6.9,
+          "vote_count": 236
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/uR952NrgispGuyqIdUbkR24vE0u.jpg",
+          "genre_ids": [
+              28,
+              878,
+              12
+          ],
+          "id": 1003596,
+          "original_language": "en",
+          "original_title": "Avengers: The Kang Dynasty",
+          "overview": "Quinta entrega de la saga 'Vengadores' incluida en el Universo Cinematográfico Marvel (UCM). Sinopsis desconocido.",
+          "popularity": 20.927,
+          "poster_path": "/utZTb3VBrH0zR77BcISU67pHuAx.jpg",
+          "release_date": "2026-04-29",
+          "title": "Vengadores: La dinastía de Kang",
+          "video": false,
+          "vote_average": 0.0,
+          "vote_count": 0
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/jqFC2WjYF07hx2X7cs0XmY9jBX6.jpg",
+          "genre_ids": [
+              28,
+              878
+          ],
+          "id": 1003598,
+          "original_language": "en",
+          "original_title": "Avengers: Secret Wars",
+          "overview": "Sexta entrega de la saga 'Vengadores' incluida en el Universo Cinematográfico Marvel (UCM). Sinopsis desconocido.",
+          "popularity": 16.154,
+          "poster_path": "/8chwENebfUEJzZ7sMUA0nOgiCKk.jpg",
+          "release_date": "2027-05-06",
+          "title": "Vengadores: Secret Wars",
+          "video": false,
+          "vote_average": 0.0,
+          "vote_count": 0
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/8CUpTaQfoG8wYqQU2fBRf0UzcrO.jpg",
+          "genre_ids": [
+              35,
+              27,
+              878
+          ],
+          "id": 28169,
+          "original_language": "en",
+          "original_title": "The Toxic Avenger Part III: The Last Temptation of Toxie",
+          "overview": "El mismísimo diablo convence a Toxie para que se vuelva despiadado, cruel e insensible y pase de todo convirtiéndose en un casero malvado. Dado que las tentaciones carnales significan tanto para él, ¿serán el matrimonio y la buena vida capaces de corromper y cambiar por completo al héroe favorito de América?",
+          "popularity": 11.108,
+          "poster_path": "/yEOliKp5hZIBR0lDr9L3mJLijT0.jpg",
+          "release_date": "1989-11-24",
+          "title": "El vengador tóxico III: La última tentación de Toxie",
+          "video": false,
+          "vote_average": 5.0,
+          "vote_count": 107
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/fryen9fnjlm0YibKTDNGzWNBOSo.jpg",
+          "genre_ids": [
+              28,
+              12,
+              53,
+              878
+          ],
+          "id": 9320,
+          "original_language": "en",
+          "original_title": "The Avengers",
+          "overview": "El apuesto John Steed (Ralph Fiennes) y la sofisticada y astuta Emma Peel (Uma Thurman) son dos agentes secretos que despliegan estilo y elegancia en su lucha contra el crimen. Sir August de Wynter (Sean connery), un antiguo miembro del Ministerio del Interior, es un hombre muy rico e inteligente que planea controlar el mundo por medio de una modernísima máquina del tiempo que representa una grave amenaza para la humanidad, que se verá expuesta a imprevisibles y violentas tormentas de hielo o a temperaturas abrasadoras. Pero nuestros héroes no pierden la calma ni siquiera en situaciones tan aparentemente irresolubles.",
+          "popularity": 18.398,
+          "poster_path": "/rGsqxpnymFzvgD6D1ks8UEbjWaB.jpg",
+          "release_date": "1998-08-13",
+          "title": "Los vengadores",
+          "video": false,
+          "vote_average": 4.378,
+          "vote_count": 639
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/jCQ9MVH1SbgXoU4GsSGbRrXR01i.jpg",
+          "genre_ids": [
+              35,
+              27,
+              878
+          ],
+          "id": 28165,
+          "original_language": "en",
+          "original_title": "The Toxic Avenger Part II",
+          "overview": "Han pasado varios años desde que Toxie acabara con el malvado alcalde de Tromaville y terminara con toda la delincuencia y la corrupción de la ciudad. Por ello, nuestro héroe se dedica ahora a labores de mantenimiento en el centro para ciegos. Sabedores de su imposibilidad de instaurar su imperio en Tromaville, la compañía Apocalypse Inc. planea la forma de sacar al superhéroe de la ciudad, y así tener vía libre para sus fechorías. Consiguen convencer a Toxie de que su padre sigue con vida en Japón, por lo cual abandona la ciudad...",
+          "popularity": 11.768,
+          "poster_path": "/m5o7B3VSAjvinjtSYxXD38senvb.jpg",
+          "release_date": "1989-07-15",
+          "title": "El vengador tóxico II",
+          "video": false,
+          "vote_average": 5.5,
+          "vote_count": 138
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/qzzAt0GakCZzbCeCJ0sFGhMIcdv.jpg",
+          "genre_ids": [
+              28,
+              14
+          ],
+          "id": 323660,
+          "original_language": "en",
+          "original_title": "Avengers Grimm",
+          "overview": "Rumpelstiltskin es un malvado que fue encerrado al otro lado del espejo mágico, con el fin de que no pudiese salir al exterior nunca más. Sin embargo, tras un tiempo encerrado, por fin puede romper el espejo y salir al mundo de los hombres.  Eso es algo que no se puede permitir, pues Rumpelstiltskin siempre está haciendo planes para dominar a la humanidad. Su salida es un desastre y por eso alguien tiene que hacer algo para remediarlo.  En esta ocasión, ese alguien no es un superhéroe musculoso, sino que son cuatro princesas con poderes mágicos las que se van a enfrentar a este villano que quiere a todo el mundo bajo su mando.  Estas princesas son Cenicienta, Bella Durmiente, Blancanieves y Rapunzel, las cuales van a ser llevadas al mismo sitio en el que está el villano, para enfrentarse a él con todos sus poderes, los cuales pueden ser insuficientes para llevar a cabo su misión.",
+          "popularity": 13.983,
+          "poster_path": "/1SbBKCbnULACOqWKN7eLfTu1gVm.jpg",
+          "release_date": "2015-03-17",
+          "title": "Las vengadoras de Grimm",
+          "video": false,
+          "vote_average": 3.924,
+          "vote_count": 112
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/iU9MO6cRewA6NqMrDTHdqUA6Ubn.jpg",
+          "genre_ids": [
+              35,
+              27,
+              878
+          ],
+          "id": 15239,
+          "original_language": "en",
+          "original_title": "The Toxic Avenger",
+          "overview": "Melvin, el limpiador de un gimnasio de la pequeña localidad de Tromaville, cae en una cuba radioactiva cuando huye de una pandilla de jóvenes. Las radiaciones le convertirán en un monstruoso mutante con superpoderes, los cuales usará para liberar del mal a la ciudad.",
+          "popularity": 11.771,
+          "poster_path": "/5IP1ZSwlarptocq9FcafzrCwGTR.jpg",
+          "release_date": "1984-05-01",
+          "title": "El vengador tóxico",
+          "video": false,
+          "vote_average": 6.283,
+          "vote_count": 465
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/qmMkaK6Tq75o6Wb6BVbr3pOnpbF.jpg",
+          "genre_ids": [
+              28,
+              35,
+              27
+          ],
+          "id": 338969,
+          "original_language": "en",
+          "original_title": "The Toxic Avenger",
+          "overview": "A horrible toxic accident transforms downtrodden janitor Winston Gooze into a new evolution of hero: THE TOXIC AVENGER! Now wielding a glowing mop with super-human strength, he must race against time to save his son and stop a ruthless and power-hungry tyrant bent on harnessing toxic superpowers to strengthen his polluted empire.",
+          "popularity": 15.396,
+          "poster_path": "/yoHmawu0XKxfch6py0xmU1NwpiH.jpg",
+          "release_date": "2023-09-21",
+          "title": "The Toxic Avenger",
+          "video": false,
+          "vote_average": 6.0,
+          "vote_count": 1
+      },
+      {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+              37
+          ],
+          "id": 349077,
+          "original_language": "en",
+          "original_title": "Crossroad Avenger: The Adventures of the Tucson Kid",
+          "overview": "Piloto de TV dirigido por Ed Wood sobre las aventuras de \"Tucson Kid\", un investigador de seguros que viaja a cualquier ciudad donde haya aparecido una reclamación de seguro sospechoso.",
+          "popularity": 1.4,
+          "poster_path": "/vhjeYNtfo3d4Lj6xfX2IFD9WowE.jpg",
+          "release_date": "1952-12-31",
+          "title": "Crossroad Avenger: The Adventures of the Tucson Kid",
+          "video": false,
+          "vote_average": 5.4,
+          "vote_count": 5
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/sORO7a1cSghfWE5GD4cSJ0qTN8O.jpg",
+          "genre_ids": [
+              28,
+              12,
+              14
+          ],
+          "id": 521720,
+          "original_language": "en",
+          "original_title": "Avengers Grimm: Time Wars",
+          "overview": "Cuando Rumpelstiltskin trata de apoderarse de la Tierra de forma definitiva, las Vengadoras de Grimm deciden viajar en el tiempo para localizarlo y acabar con él.",
+          "popularity": 13.947,
+          "poster_path": "/xfAcu74DRQXeM9XqFcE5MrSRzYP.jpg",
+          "release_date": "2018-05-01",
+          "title": "Las vengadoras de Grimm: Tiempos de guerra",
+          "video": false,
+          "vote_average": 4.657,
+          "vote_count": 54
+      }
+  ],
+  "total_pages": 9,
+  "total_results": 174
+}

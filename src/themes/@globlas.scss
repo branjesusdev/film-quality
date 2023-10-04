@@ -19,7 +19,7 @@
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
-    @apply font-custom;
+    font-family: 'cine-regular', system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-image: var(--bg-wrapper);
   }
 
