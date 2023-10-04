@@ -1,0 +1,37 @@
+
+@font-face {
+  font-family: 'cine-light';
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local('cine-light'), url('/public/fonts/Satoshi-Light.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: 'cine-regular';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: local('cine-regular'), url('/public/fonts/Satoshi-Regular.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: 'cine-semibold';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('cine-semibold'), url('/public/fonts/Satoshi-Medium.woff2') format("woff2");
+}
+
+
+@font-face {
+  font-family: 'cine-bold';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('cine-bold'), url('/public/fonts/Satoshi-Bold.woff2') format("woff2");
+}
+
+
+
+
