@@ -10,7 +10,8 @@ export default {
       },
       colors: {
         black: {
-          light: 'var(--black-light)'
+          light: 'var(--black-light)',
+          secondary: 'var(--black-secondary)'
         }
       }
 

@@ -1,9 +1,10 @@
-function UpcomingMovies() {
+
+function ListMovies() {
   return (
     <section className="wrapper-content">
-      
+
     </section>
   )
 }
 
-export default UpcomingMovies
+export default ListMovies
