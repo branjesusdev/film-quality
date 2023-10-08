@@ -1,9 +1,17 @@
 {
   "compilerOptions": {
     "composite": true,
+    "skipLibCheck": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@domain/*": ["src/app/domain/*"],
+      "@infra/*": ["src/app/infrastructure/*"],
+      "@aplication/*": ["src/app/aplication/*"],
+    },
   },
   "include": ["**/*.ts"]
 }

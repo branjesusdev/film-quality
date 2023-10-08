@@ -1,22 +1,16 @@
-export interface OutUpcomingList {
-  dates:         Dates;
+export interface OutSearchMovies {
   page:          number;
-  results:       Result[];
+  results:       ResultSearch[];
   total_pages:   number;
   total_results: number;
 }
 
-interface Dates {
-  maximum: Date;
-  minimum: Date;
-}
-
-interface Result {
+interface ResultSearch {
   adult:             boolean;
-  backdrop_path:     string;
+  backdrop_path:     null | string;
   genre_ids:         number[];
   id:                number;
-  original_language: string;
+  original_language: OriginalLanguageSearch;
   original_title:    string;
   overview:          string;
   popularity:        number;
@@ -26,4 +20,11 @@ interface Result {
   video:             boolean;
   vote_average:      number;
   vote_count:        number;
+}
+
+enum OriginalLanguageSearch {
+  En = "en",
+  Ja = "ja",
+  Ru = "ru",
+  Zh = "zh",
 }

@@ -1,19 +1,34 @@
 import { PopularList, UpcomingList, Movie } from "@domain/model/entity";
 import { OutPopularMovies, OutUpcomingList, OutSearchMovies } from '@infra/adapters/models'
 import { OutMoviesListPort } from "@domain/model/ports/out";
-
+import { PATHS } from '@/app/config/paths'
 
 export class MoviesListAdapter implements OutMoviesListPort {
+
+  
+  private urlBase;
+  private apiKey;
+  private apiAuth;
+
+  constructor() {
+    this.urlBase = PATHS.BASE_URL
+    this.apiKey = import.meta.env.VITE_MOVIE_API_KEY ?? ''
+    this.apiAuth = import.meta.env.VITE_REST_API_AUTH ?? ''
+  }
+
+  private get getApiKey() : string{
+    return `${this.apiAuth} ${this.apiKey}`
+  }
   
   async getPopular(): Promise<PopularList[]> {
     
     const params = new URLSearchParams({
       language: 'es'
     })
-    const res = await fetch(`https://api.themoviedb.org/3/movie/popular?${params}`, {
+    const res = await fetch(`${this.urlBase}movie/popular?${params}`, {
       method: 'GET',
       headers : {
-        Authorization : `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3NGNmNWY3YTQ1NDZmYjdhYzUxY2FhMGE0NzljMDJlOCIsInN1YiI6IjY1MTc0MTViZDQ2NTM3MDlkYzdiZTM2NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.QFhIu-nv7pj-_bunB4OiAoXtdP9KY95YDEtBfdV4_zw`
+        Authorization : this.getApiKey
       }
     })
     const data = await res.json() as OutPopularMovies
@@ -26,8 +41,8 @@ export class MoviesListAdapter implements OutMoviesListPort {
         title,
         vote : vote_average,
         description : overview,
-        releaseDate  : release_date
-      } as OutPopularMovies
+        releaseDate  : String(release_date)
+      } as PopularList
     } )
 
   }
@@ -36,10 +51,10 @@ export class MoviesListAdapter implements OutMoviesListPort {
     const params = new URLSearchParams({
       language: 'es'
     })
-    const res = await fetch(`https://api.themoviedb.org/3/movie/upcoming?${params}`, {
+    const res = await fetch(`${this.urlBase}movie/upcoming?${params}`, {
       method: 'GET',
       headers : {
-        Authorization : `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3NGNmNWY3YTQ1NDZmYjdhYzUxY2FhMGE0NzljMDJlOCIsInN1YiI6IjY1MTc0MTViZDQ2NTM3MDlkYzdiZTM2NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.QFhIu-nv7pj-_bunB4OiAoXtdP9KY95YDEtBfdV4_zw`
+        Authorization : this.getApiKey
       }
     })
     const data = await res.json() as OutUpcomingList
@@ -52,7 +67,7 @@ export class MoviesListAdapter implements OutMoviesListPort {
         title,
         vote : vote_average,
         description : overview,
-        releaseDate  : release_date
+        releaseDate  : String(release_date)
       } as UpcomingList
     } )
   }
@@ -62,10 +77,10 @@ export class MoviesListAdapter implements OutMoviesListPort {
       language: 'es',
       query
     })
-    const res = await fetch(`https://api.themoviedb.org/3/search/movie?${params}`, {
+    const res = await fetch(`${this.urlBase}search/movie?${params}`, {
       method: 'GET',
       headers : {
-        Authorization : `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3NGNmNWY3YTQ1NDZmYjdhYzUxY2FhMGE0NzljMDJlOCIsInN1YiI6IjY1MTc0MTViZDQ2NTM3MDlkYzdiZTM2NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.QFhIu-nv7pj-_bunB4OiAoXtdP9KY95YDEtBfdV4_zw`
+        Authorization : this.getApiKey
       }
     })
     const data = await res.json() as OutSearchMovies
@@ -78,7 +93,7 @@ export class MoviesListAdapter implements OutMoviesListPort {
         title,
         vote : vote_average,
         description : overview,
-        releaseDate  : release_date
+        releaseDate  : String(release_date)
       } as Movie
     } )
   }

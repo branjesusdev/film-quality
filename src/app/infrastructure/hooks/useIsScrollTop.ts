@@ -8,7 +8,7 @@ function useIsScrollTop (object : { elementById : string, positonIdentity ?: num
 
   useEffect(() => {
     const $elementScroll = document.getElementById(`${elementById}`)
-    const initialOffsetTop = $elementScroll.getBoundingClientRect().top
+    const initialOffsetTop = $elementScroll?.getBoundingClientRect().top ?? 0
 
     const handleScroll = () => {
       const scrollTop = window.scrollY ?? document.documentElement.scrollTop
