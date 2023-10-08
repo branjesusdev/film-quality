@@ -4,7 +4,7 @@ import { type OutCategorieList } from '@infra/adapters/models';
 
 export class CategorieMoviesAdapter implements OutCategorieMoviesPort {
   
-  async getCategories() : Promise<CategorieList> {
+  async getCategories() : Promise<CategorieList[]> {
     const params = new URLSearchParams({
       language: 'es'
     })

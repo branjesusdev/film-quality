@@ -8,7 +8,7 @@ export class CategoriesListUseCase extends InCategorieMoviesPort {
     super()
   }
 
-  getCategories() : Promise<CategorieList> {
+  getCategories() : Promise<CategorieList[]> {
     return this.outPort.getCategories()
   }
   

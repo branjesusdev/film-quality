@@ -3,6 +3,7 @@ import Header from '@aplication/layout/Header'
 import PopularMovies from '@aplication/layout/PopularMovies'
 import CategoriesMovies from '@aplication/layout/CategoriesMovies'
 import UpcomingMovies from '@aplication/layout/UpcomingMovies'
+import ArrowTop from '@aplication/layout/ArrowTop'
 
 function App () {
   return (
@@ -16,10 +17,12 @@ function App () {
         <div>
           <CategoriesMovies />
         </div>
-        <div className='grid  grid-cols-8  gap-4 xl:gap-6 mb-10'>
+        <div className='md:grid md:grid-cols-8  gap-4 xl:gap-6 mb-10'>
           <PopularMovies />
           <UpcomingMovies />
         </div>
+
+        <ArrowTop />
 
       </main>
 

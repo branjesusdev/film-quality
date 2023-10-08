@@ -33,11 +33,10 @@
     min-height: 5rem;
     background-color: var(--black-40);
     border: 1px solid var(--bg-border);
-    padding: 25px;
     position: relative;
     overflow: hidden;
     border-radius: 24px;
-    @apply shadow-2xl
+    @apply shadow-2xl p-2 lg:p-4;
   }
 }
 

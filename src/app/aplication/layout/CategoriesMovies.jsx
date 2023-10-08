@@ -10,8 +10,9 @@ function CategoriesMovies () {
         categoriesMap &&
         categoriesMap.map(({ id, name }) => (
           <li
-            key={id} className='px-4 py-1 border-custom rounded-custom bg-black-light hover:text-white/80 hover:border-[var(--black-active)]
-            cursor-pointer hover:scale-[105%] hover:shadow-lg hover:text-base
+            key={id} className='text-sm px-3 py-1 border-custom rounded-custom bg-black-light hover:text-white/80
+            hover:border-[var(--blue-active)]
+            cursor-pointer hover:scale-[105%] hover:shadow-lg
             hover:[filter:drop-shadow(0_0_2em_var(--blue-active))]'
           > {name}
           </li>
