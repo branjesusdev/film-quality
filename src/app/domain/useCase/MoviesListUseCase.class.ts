@@ -8,16 +8,16 @@ export class MoviesListUseCase extends InMoviesListPort {
     super();
   }
 
-  getPopular(): Promise<PopularList[]> {
-    return this.outMoviesListPort.getPopular()
+  getPopular( page : number ): Promise<PopularList[]> {
+    return this.outMoviesListPort.withPopular( page )
   }
 
   getUpcoming() : Promise<UpcomingList[]> {
-    return this.outMoviesListPort.whithUpcoming()
+    return this.outMoviesListPort.withUpcoming()
   }
 
   searchMovie( query : string ) : Promise<UpcomingList[]> {
-    return this.outMoviesListPort.whithSearchMovie(query)
+    return this.outMoviesListPort.withSearchMovie(query)
   }
   
 }

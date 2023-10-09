@@ -13,7 +13,7 @@ export function useMovies ({ search }) {
         if (search) {
           listQuery = await SearchMovieUseCase.searchMovie(search)
         } else {
-          listQuery = await MoviesUseCase.getPopular()
+          listQuery = await MoviesUseCase.getPopular(1)
         }
         setMovies(listQuery)
       } catch (error) {

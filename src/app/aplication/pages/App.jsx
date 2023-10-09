@@ -7,7 +7,7 @@ import ArrowTop from '@aplication/layout/ArrowTop'
 
 function App () {
   return (
-    <div className='relative z-10 min-h-screen font-custom px-4 lg:px-14'>
+    <div className='relative z-10 min-h-screen font-custom px-4 lg:px-14' id='wrap-content'>
       <div className='overflow-hidden'>
         <div className="contrast-50 absolute left-0 h-full w-[100%] max-w-none object-cover object-center bg-no-repeat cursor-none pointer-events-none bg-[url('/backgrounds/bg-4-000fae5e.png')]" />
       </div>

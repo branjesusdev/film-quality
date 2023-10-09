@@ -1,9 +1,11 @@
 import { PATHS } from '@/app/config/paths'
 import { MoviePoster } from '@aplication/components/MoviePoster'
 import useMovieStore from '@infra/store/useStoreMovie'
+import { usePopularMovies } from '@infra/hooks/usePopularMovies'
 
 function PopularMovies () {
   const { movies } = useMovieStore()
+  usePopularMovies()
 
   return (
     <section className='wrapper-content col-span-6 grid'>

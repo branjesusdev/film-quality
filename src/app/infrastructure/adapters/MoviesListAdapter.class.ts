@@ -20,10 +20,11 @@ export class MoviesListAdapter implements OutMoviesListPort {
     return `${this.apiAuth} ${this.apiKey}`
   }
   
-  async getPopular(): Promise<PopularList[]> {
+  async withPopular( page : number ): Promise<PopularList[]> {
     
     const params = new URLSearchParams({
-      language: 'es'
+      language: 'es',
+      page : String(page)
     })
     const res = await fetch(`${this.urlBase}movie/popular?${params}`, {
       method: 'GET',
@@ -47,7 +48,7 @@ export class MoviesListAdapter implements OutMoviesListPort {
 
   }
 
-  async whithUpcoming() : Promise<UpcomingList[]> {
+  async withUpcoming() : Promise<UpcomingList[]> {
     const params = new URLSearchParams({
       language: 'es'
     })
@@ -72,7 +73,7 @@ export class MoviesListAdapter implements OutMoviesListPort {
     } )
   }
 
-  async whithSearchMovie( query : string ) : Promise<Movie[]> {
+  async withSearchMovie( query : string ) : Promise<Movie[]> {
     const params = new URLSearchParams({
       language: 'es',
       query
