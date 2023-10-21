@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react'
+import { useState, useMemo } from 'react'
 
 export function useScrollAtEnd () {
   const [isEndSroll, setIsEndSroll] = useState(false)
 
-  useEffect(() => {
+  useMemo(() => {
     const isScrollAtEnd = () => {
       // Get the current scroll position
       const scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop

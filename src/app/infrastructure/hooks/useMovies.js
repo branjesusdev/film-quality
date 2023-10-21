@@ -1,14 +1,16 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import useMovieStore from '@infra/store/useStoreMovie'
 
 import { MoviesUseCase, SearchMovieUseCase } from '@infra/connection'
 
 export function useMovies ({ search }) {
   const { movies, setMovies } = useMovieStore()
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
-    const fetchData = async () => {
+    const getMovies = async (search) => {
       try {
+        setLoading(true)
         let listQuery
         if (search) {
           listQuery = await SearchMovieUseCase.searchMovie(search)
@@ -16,13 +18,13 @@ export function useMovies ({ search }) {
           listQuery = await MoviesUseCase.getPopular(1)
         }
         setMovies(listQuery)
-      } catch (error) {
-        // Handle errors
+      } finally {
+        setLoading(false)
       }
     }
 
-    fetchData()
+    getMovies(search)
   }, [search, setMovies])
 
-  return { movies }
+  return { movies, loading }
 }

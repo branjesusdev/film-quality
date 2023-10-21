@@ -5,7 +5,6 @@ import { PATHS } from '@/app/config/paths'
 
 export class MoviesListAdapter implements OutMoviesListPort {
 
-  
   private urlBase;
   private apiKey;
   private apiAuth;
@@ -74,11 +73,10 @@ export class MoviesListAdapter implements OutMoviesListPort {
   }
 
   async withSearchMovie( query : string ) : Promise<Movie[]> {
-    const params = new URLSearchParams({
-      language: 'es',
-      query
-    })
-    const res = await fetch(`${this.urlBase}search/movie?${params}`, {
+    
+    const language = 'es';
+    
+    const res = await fetch(`${this.urlBase}search/movie?language=${language}&query=${query}`, {
       method: 'GET',
       headers : {
         Authorization : this.getApiKey

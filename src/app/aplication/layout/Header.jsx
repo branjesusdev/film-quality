@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
+import debounce from 'just-debounce-it'
 
 import IconSearch from '@aplication/components/content/IconSearch'
 import useIsScrollTop from '@infra/hooks/useIsScrollTop'
@@ -6,10 +7,20 @@ import { useMovies } from '@infra/hooks/useMovies'
 
 function Header () {
   const fixedElement = 'scroll-top--header'
-  const { scrollTop: isFixed } = useIsScrollTop({ elementById: fixedElement, positonIdentity: 300 })
+  const { scrollTop: isFixed } = useIsScrollTop({
+    elementById: fixedElement,
+    positonIdentity: 300
+  })
   const [query, setQuery] = useState('')
 
   useMovies({ search: query })
+
+  const debounceGetMovies = useCallback(
+    debounce(query => {
+      setQuery(query)
+    }, 800),
+    [setQuery]
+  )
 
   const handleSubmit = (event) => {
     event.preventDefault()
@@ -18,8 +29,18 @@ function Header () {
     setQuery(search)
   }
 
+  const handleChange = (event) => {
+    const newSearch = event.target.value
+    debounceGetMovies(newSearch)
+  }
+
   return (
-    <header className={`${isFixed ? 'fixed z-50 top-0 left-0 right-0 px-4 lg:px-0 ' : 'block'} w-full overflow-hidden mt-3 group`} id='scroll-top--header'>
+    <header
+      className={`${
+        isFixed ? 'fixed z-50 top-0 left-0 right-0 px-4 lg:px-0 ' : 'block'
+      } w-full overflow-hidden mt-3 group`}
+      id='scroll-top--header'
+    >
       <form
         className={`
           ${isFixed ? ' bg-neutral-800/80 text-white/80 ' : ' bg-black-light '}
@@ -28,6 +49,7 @@ function Header () {
           rounded-custom backdrop-blur-lg p-1 m-auto group-hover:[filter:drop-shadow(-1em_0_2em_var(--blue-active))]
           overflow-hidden`}
         onSubmit={handleSubmit}
+        onChange={handleChange}
       >
         <span className='ml-2'>
           <IconSearch />

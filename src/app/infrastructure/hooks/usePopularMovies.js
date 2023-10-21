@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useScrollAtEnd } from '@infra/hooks/useScrollAtEnd'
 import useMovieStore from '@infra/store/useStoreMovie'
 
@@ -9,7 +9,7 @@ export function usePopularMovies () {
   const { movies, setMovies } = useMovieStore()
   const [countPage, setCountPage] = useState(2)
 
-  useEffect(() => {
+  useMemo(() => {
     if (isEndSroll) {
       setCountPage(prevCountPage => prevCountPage + 1)
 
@@ -17,9 +17,7 @@ export function usePopularMovies () {
         try {
           const listQuery = await MoviesUseCase.getPopular(countPage)
           setMovies(movies.concat(listQuery))
-        } catch (error) {
-          // Handle errors
-        }
+        } catch (error) {}
       }
 
       fetchData()

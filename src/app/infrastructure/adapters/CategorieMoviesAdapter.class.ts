@@ -1,3 +1,4 @@
+
 import { OutCategorieMoviesPort } from '@domain/model/ports/out';
 import { CategorieList } from '@domain/model/entity';
 import { OutCategorieList } from '@infra/adapters/models';
@@ -20,6 +21,9 @@ export class CategorieMoviesAdapter implements OutCategorieMoviesPort {
   }
   
   async getCategories() : Promise<CategorieList[]> {
+
+    'use server'
+
     const params = new URLSearchParams({
       language: 'es'
     })
