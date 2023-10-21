@@ -13,5 +13,5 @@
       "@aplication/*": ["src/app/aplication/*"],
     },
   },
-  "include": ["**/*.ts"]
+  "include": ["src/**/*", "**/*.ts", "**/*.d.ts"],
 }
