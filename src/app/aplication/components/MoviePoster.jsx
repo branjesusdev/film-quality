@@ -2,7 +2,7 @@ export function MoviePoster ({ title, description, img, vote }) {
   return (
     <li className='rounded-xl overflow-hidden shadow-md transition-all group relative cursor-pointer'>
       <img
-        className='object-cover object-center group-hover:bg-red-950 group-hover:opacity-50 group-hover:contrast-100 group-hover:blur-[2px] cursor-pointer'
+        className='object-cover object-center group-hover:bg-red-950 group-hover:opacity-50 group-hover:contrast-100 group-hover:blur-[2px] cursor-pointer transition-all ease-in-out duration-300 aspect-[2/3] w-full h-full'
         src={img}
         loading='lazy'
         decoding='async'
