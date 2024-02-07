@@ -67,6 +67,8 @@ function Header () {
         <button
           type='submit'
           aria-level='submit form action'
+          role='button'
+          aria-label='Search movie'
           className='border-custom-secondary bg-[var(--black-10)]
             border-solid border-[1px] rounded-custom px-4 py-2
           text-white backdrop-blur-lg transition-all
