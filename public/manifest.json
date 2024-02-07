@@ -1,0 +1,19 @@
+{
+  "background_color": "#ffffff",
+  "description": "Cine online by movies full HD - Proyect by React",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "film-quality.vercel",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Film Quality",
+  "start_url": "/",
+  "theme_color": "#0e0e0e",
+  "icons": [
+    {
+      "src": "/film.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "lang": "es"
+}
