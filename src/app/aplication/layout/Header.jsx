@@ -66,7 +66,6 @@ function Header () {
 
         <button
           type='submit'
-          aria-level='submit form action'
           role='button'
           aria-label='Search movie'
           className='border-custom-secondary bg-[var(--black-10)]
